@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon02.ico" type="image/x-icon">
+    <title>RDE02 - Conceitos Fundamentais</title>
+</head>
+
+<body>
+<h1><b>Questionário</b></h1>
+    <p><b>1.Quais foram as principais invenções da década de 1990?</b></p>
+    <p>Na década de 90, o cientista, físico e professor britânico Tim Berners-Lee desenvolveu a World Wide Web (www). A partir disso, esse período ficou conhecido como o "boom da internet", pois foi quando ela se popularizou pelo mundo, desencadeando um aumento do número de usuários, navegadores da internet, sites, redes sociais, entre outros, tornando a internet uma teia global de computadores conectados.</p>
+    <p>Entre as principais invenções da década de 1990, estão elas: Protocolo de Transferência de Hipertexto (HTTP), Linguagem de Marcação de Hipertexto (HTML), Mosaic (primeiro navegador), Windows 95, Internet Explorer, Google, Yahoo!, Adobe Photoshop, Linux, Mensagens de texto-SMS, Nokia 1011 (telefone móvel), Sony PlayStation, DVD.</p>
+    
+    <p><b>2.Explique os protocolos http e https.</b></p>
+    <p>HTTP é um protocolo de transferência que possibilita que as pessoas que inserem a URL do seu site na Web possam ver os conteúdos e dados que nele existem. A sigla vem do inglês Hypertext Transfer Protocol. Esse sistema é a base da comunicação que existe em toda a Internet em que os sites e conteúdos que tragam hiperlinks possam ser encontrados mais facilmente pelo público por meio de um clique do mouse ou um toque na tela.</p>
+    <p>Assim, quando um usuário acessa ou digita a URL do seu site, o navegador cria uma solicitação HTTP na web e a envia ao endereço de IP indicado pela URL. Dessa forma, o servidor recebe essa solicitação e envia os arquivos associados que, nada mais são, do que os sites que acessamos na Internet.O HTTP é um protocolo baseado em texto sem conexão. Em suma, quando alguém digita a URL de algum site em um navegador, é isto que acontece:</p>
+    <p>Se a URL pertencer a um domínio próprio, o navegador primeiro se conecta a um servidor e recuperará o endereço IP correspondente ao servidor; O navegador se conecta ao servidor e envia uma solicitação HTTP para a página da web desejada (que, neste exemplo, é o seu site); O servidor recebe a solicitação e verifica a página desejada. Se a página existir, o servidor a mostrará. Se o servidor não conseguir encontrar a página solicitada, ele enviará uma mensagem de erro HTTP 404, ou seja, página não encontrada; O navegador, então, recebe a página de volta e a conexão é fechada; Caso a página exista, o navegador a analisa e procura outros elementos necessários para concluir a sua exibição, o que inclui seus textos, imagens e afins; Para cada um desses elementos, o navegador faz conexões adicionais e solicitações HTTP para o servidor para cada elemento; Quando o navegador terminar de carregar todos os elementos, a página será carregada na janela do navegador.</p>
+    <p>O HTTPS é uma extensão do HTTP. O “S” vem da palavra “secure” (“segurança” em inglês) e costuma ser oferecido pelo certificado SSL, oferecidos pela maioria dos servidores. Ele oferece uma conexão criptografada entre o servidor e o navegador, de maneira que o usuário possa inserir informações com mais segurança.É por isso que a maioria dos e-commerces têm sites em HTTPS e o próprio navegador informa que é seguro digitar dados pessoais caso deseje realizar alguma ação, como uma compra online.</p>
+    <p>Ou seja, sem HTTPS, qualquer dado inserido no site (nome, e-mail, senhas, cartão de crédito, e afins) são enviados em forma de texto simples, sendo, portanto, suscetíveis a intercepção ou interceptação.</p>
+     
+    <p><b>3.Qual a função do DNS e porque a necessidade de sua existência?</b></p>
+    <p>DNS (Domain Name System ou Sistema de Nome de Domínio) nada mais é do que um sistema de bancos de dados distribuídos em uma rede. A função principal dele é traduzir certos hostnames em números específicos de IP que os computadores entendem.</p>
+    <p>Essa informação dos hostnames combinada com números específicos é armazenada em um diretório principal. E este diretório principal é armazenado nos servidores dos nomes de domínio. É assim que o usuário tem acesso a páginas de internet através dos domínios digitados no navegador.</p>
+    <p>O DNS funciona em uma infraestrutura de subsistemas, com diferentes servidores processando informações e transmitindo para outros. É como um serviço de atendimento ao cliente em que cada colaborador transfere o contato para o especializado no determinado assunto em questão.</p>
+    <p>O DNS recursivo trabalha na primeira camada, recebendo solicitações diretamente dos provedores de acesso. Ele, então, repassa essa informação para um subsistema mais específico, o Root Nameserver. Esse, por sua vez, também organiza os pedidos e transfere adiante, para o TLD Nameserver.</p>
+    <p>O TLD Nameserver é responsável por agrupar os domínios de acordo com um termo específico que os padroniza, o sufixo: “.com” ou “.org”, por exemplo. Quando você digita “rockcontent.com”, essa requisição é direcionada para o TLD.com, que contém os nomes dessa categoria.</p>
+    <p>Então, o pedido finalmente chega ao último registro, o Nameserver autoritativo, que contém uma lista com os nomes e IPs mais específicos. É fundamental que esse caminho seja percorrido, pois as combinações de endereços na internet são extremamente numerosas, e esses servidores ajudam a catalogá-los.</p>
+    
+    <p><b>4.Caso não existisse o protocolo TCP/IP quais o problemas aconteceriam?</b></p>
+    <p>O TCP/IP é um conjunto de protocolos de comunicação. O nome vem de dois protocolos TCP (Transmission Control Protocol) e o IP (Internet Protocol). Eles tem por objetivo padronizar todas as comunicações de rede, principalmente as comunicações na web.</p>
+    <p>Esse grupo é dividido em quatro camadas: aplicação, transporte, rede e interface. Cada uma delas é responsável pela execução de tarefas distintas. Essa divisão em camadas é uma forma de garantir a integridade dos dados que trafegam pela rede.</p>
+    <p>Aplicação: Essa camada é utilizada pelos programas para enviar e receber informações de outros programas através da rede.</p> 
+    <p>Transporte e Rede: A camada de transporte é responsável por receber os dados enviados pelo grupo acima, verificar a integridade deles e dividi-los em pacotes. Feito isso, as informações são encaminhadas para a camada internet, logo abaixo dela. Na Rede, os dados empacotados são recebidos e anexados ao endereço virtual (IP) do computador remetente e do destinatário.</p> 
+    <p>Interface: A tarefa da Interface é receber e enviar pacotes pela rede. Os protocolos utilizados nessa camada dependem do tipo de rede que está sendo utilizado. Atualmente, o mais comum é o Ethernet, disponível em diferentes velocidades.</p>
+    <p>Se esses protocolos não existissem, provavelmente os possíveis problemas seriam a falta de comunicação padronizada que resultaria a não existência de um alcance mundial da Internet, haveria problemas na entrega das informações para os usuários, impossibilidade de interconectividade entre sistemas não similares e também a não obtenção ao acesso à Internet.</p>
+    
+    <p><b>5.Defina HTML</b></p>
+    <p>O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website. Portanto, ele serve para dar significado e organizar as informações de uma página na web. Sem isso, o navegador não saberia exibir textos como elementos ou carregar imagens e outros conteúdos.</p>
+    <p>Os hipertextos são conjuntos de elementos conectados. Esses podem ser palavras, imagens, vídeos, documento, etc. Quando conectados, formam uma rede de informações que permite a comunicação de dados, organizando conhecimentos e guardando informações.</p>
+    <p>Ao visitar uma página simples na web, pode-se perceber que existem diferentes distribuições e tamanhos para títulos, parágrafos, imagens, vídeos e qualquer outro elemento. Essa estrutura é estabelecida através do HTML, podemos considerar o HTML o “esqueleto” de qualquer página. Além do esqueleto, é necessário ter o corpo. Para isso, temos então as linguagens CSS e o JavaScript, que em conjunto com HTML, formam a base para todos os websites atuais.</p>
+    <p>Através de um documento HTML, ou seja, um documento com a extensão .html ou .htm., o navegador faz a leitura do arquivo e renderiza o seu conteúdo para que o usuário final possa visualizá-lo. Os arquivos .html podem ser visualizados em qualquer navegador (como Google Chrome, Safari, ou Mozilla Firefox). O código pode ser escrito através de qualquer editor de texto, como o próprio bloco de notas. Cada página consiste em uma série de tags (também chamados de elementos) que podem ser considerados os blocos de construção das páginas. Portanto, esses blocos são a maneira com a qual o HTML faz a marcação dos conteúdos, criando a hierarquia e a estrutura do mesmo, dividido entre seções, parágrafos, cabeçalhos, e outros.</p>
+    
+    <p><b>6.Acesse o site do projeto W3 (http://info.cern.ch/hypertext/WWW/TheProject.html) e descreva qual era o propósito do projeto.</b></p>   
+    <p>O projeto W3 tem como proposito combinar técnicas de recuperação de informação e hipertexto para a criação de um sistema de informação global fácil e poderoso. Tem como objetivo permitir o compartilhamento de informações em equipes dispersas internacionalmente e a disseminação de informações por grupos de apoio. A sua principal filosofia é que muitas informações devem estar disponíveis gratuitamente para qualquer pessoa. O mundo WWW consiste em documentos e links, onde o leitor fornece palavras-chaves para acessar todo o mundo dos dados. O modelo WWW supera as incompatibilidades frustrantes de de dados entre os fornecedores e leitores, permitindo a negociação de formato entre um navegador inteligente e um servidor inteligente.</p>
+
+    <p>
+        <a href="RDE02.pdf" download="RDE02.pdf" type="application/pdf" target="_blank">Download</a>
+    </p>
+    
+</body>
+</html>
