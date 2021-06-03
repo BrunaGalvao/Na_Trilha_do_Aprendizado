@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon09.ico" type="image/x-icon">
+    <title>RDE09 - Multimídias</title>
+</head>
+<body>
+    <h1><b>Multimídia</b></h1>
+    <p>É uma forma de comunicação que combina diferentes formas de conteúdo, como <i>texto</i>,<i>áudio</i>,<i>imagens</i>,<i>animações</i> ou <i>vídeo</i> em uma apresentação.</p>    
+    
+    <h1>Incorporando Multimídias ao Site</h1>
+
+    <h2>Tag IFRAME</h2>
+    <p>A Tag &lt; iframe &gt; é usada para incorporar outro documento ao documento <b>HTML</b>. A sua sintaxe consiste:</p>
+        <p> &lt; iframe src="URL" height="altura em pixels" width="largura em pixels" title="título" &gt; &lt; /iframe &gt;</p>   
+
+    <h3>Incorporar outro site dentro do site</h3>
+    <p>Para a incorporação de um site dentro de outro site usamos a tag <b>Iframe</b>. Após localizar o endereço desejado,conforme o exemplo abaixo, aplicamos na tag e também decidimos os seus ajustes, como altura e largura.</p>
+
+    <p><img src="img/incorpsite.png" alt="exemplo"></p>
+
+    <iframe src="http://irati.ifpr.edu.br" height=300 width=300></iframe>
+
+    <h3>Embutir Audio no Site</h3>
+    <p>Para embutir um audio de forma externa, localizamos em um site, como exemplo SoundCloud, a música que desejamos e copiamos seu código na opção Incorporado. Com esse código, incorporamos na tag <b>Iframe</b> e ajustamos o seu tamanho.</p>
+
+    <p><img src="img/sound.png" alt="sound"></p>
+    <p><img src="img/tagmusica.png" alt="exemplo"></p>
+
+    <iframe width="30%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/50984741&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/juan_mj_10" title="Juan Juncos" target="_blank" style="color: #cccccc; text-decoration: none;">Juan Juncos</a> · <a href="https://soundcloud.com/juan_mj_10/led-zeppelin-rock-n-roll" title="Led Zeppelin - Rock N&#x27; Roll" target="_blank" style="color: #cccccc; text-decoration: none;">Led Zeppelin - Rock N&#x27; Roll</a></div>
+    
+    <h3>Incorporar Videos ao Site</h3>
+    <p>A incorporação de vídeos, ocorre por meio da pesquisa do mesmo, na plataforma Youtube. Selecionando o Compartilhar no vídeo que deseja, incorporamos a Tag Iframe gerada, conforme a imagem a seguir.</p>
+    
+    <p><img src="img/youtube.png" alt="youtube"></p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fYJl-7jRzuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2>Tag Video</h2>
+    <p>Nessa Tag, podemos incorporar vídeos são internos na nossa máquina local. Desde que esses arquivos estejam em uma pasta interna, utilizamos as Tags para incorporação, como na imagem a seguir. Podemos incorporar vários tipos de arquivos de video, para que não haja a possibilidade de incompatilidade na hora da execução.</p>
+
+    <p><img src="img/video.png" alt="exemplo"></p>
+
+    <video poster="video/Bike.jpg" controls>
+        <source src="video/_Bike.mp4" type="video/mp4">
+        <source src="video/Bike.webm" type="video/webm">
+        <source src="video/Bike.ogv" type="video/ogv">    
+    </video>
+
+    <h2>Tag de Audio</h2>
+    <p>Podemos também, incorporar aúdio de músicas presentes na nossa máquina local. Através do arquivo em formato disponível em nosso computador, inserimos por meio das tags, vários formatos de aúdio para que não ocorra a inconsistência na hora da execução. A imagem a seguir ilustra a forma de como podemos incorporar os aúdios presentes em uma pasta local.</p>
+
+    <p>Existem também, uma biblioteca de audio disponível no Youtube, seguindo os direitos autorais e sites disponíveis para download de audios nesses formatos.</p>
+
+    <p><img src="img/audio.png" alt="exemplo"></p>
+
+    <audio preload="metadata" controls>
+        <source src="audio/Hey Sailor - Letter Box.mp3" type="audio/mp3">
+        <source src="audio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
+        <source src="audio/Hey-Sailor-Letter-Box.wav" type="audio/wav">
+    </audio>
+
+    <h2>Tag Picture</h2>
+    <p>A Tag Picture serve para agrupar várias imagem que serão incorporadas a nossa página. Conforme a imagem a seguir, que mostra a estrutura da Tag, podemos carregar imagens em vários tipos de tamanhos em pixels para que ela se adapte ao navegador. Com essas variações de tamanhos, é possível o redirecionamento das imagens de forma automática.</p>
+
+    <p><img src="img/img.png" alt="exemplo"></p>
+
+    <picture>
+        <source media="(max-width:500px)" srcset="img/bike_110.jpg">
+        <source media="(max-width:700px" srcset="img/bike_320.jpg">
+        <source media="(max-width:1000px)" srcset="img/bike_640.jpg">
+        <img src="img/bike_full.jpg" alt="Mtb Por-do-Sol">
+    </picture>
+</body>
+</html>
