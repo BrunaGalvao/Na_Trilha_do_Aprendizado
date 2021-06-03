@@ -1,0 +1,78 @@
+div{
+    background-color: pink;
+    margin:10px;
+}
+
+span{
+    font-weight: bold;    
+}
+
+h1#principal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:rgb(83,58,109);
+    background-color: plum;
+    border: 2px solid rgb(138,46,224);
+}
+
+div.agrupamento{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(39,7,70);
+    background-color: rgba(170, 20, 230, 0.616);
+    border: 3px solid grey; 
+    margin: 20px;  
+    padding:10px; 
+}
+
+.exemplo1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(123, 123, 240);
+    border: 1px solid rgb(113, 232, 236);
+    margin: 10px;
+    padding: 10px;
+    width: 80px;
+    height: 30px;
+}
+
+.exemplo2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(228, 82, 94);   border: 1px solid orange;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+.personalizado{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(216,197,233,0.616);
+    border: 2px solid gray;
+    margin: 10px;
+    padding: 10px;
+}
+
+.personalizado:hover{
+    color: rgb(29,7,70);
+    background-color: rgba(29,9,48,0.616);;
+    margin: 30px;
+    padding: 20px;
+}
+
+.pseudo > span {
+    display: none;
+}
+
+.pseudo:hover > span{
+    display: block;
+    background-color:dark;
+}
+
+h3::selection{
+    color:red;
+    background: yellow;
+}
+
+p::first-letter{
+    color:red;
+    font-size: xx-large;
+}
