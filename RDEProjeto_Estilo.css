@@ -1,0 +1,60 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, #faa9e2, #ce1773);
+    width: 50%;
+    margin:0 auto;
+}
+
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(250, 207, 243);
+    border-radius: 5px;
+    margin-top: 10px; 
+    box-shadow: 10px 10px 10px #290a1f98;   
+}
+
+.logo img{
+    width: 50%;
+    padding-top: 50px; 
+    
+}
+.navegacao{
+    overflow: hidden;
+}
+
+.navegacao a{
+    float: right;
+    display: block;
+    color: rgb(243, 7, 172);
+    text-decoration: none;
+    text-align: right;
+    padding: 10px 10px;
+}
+.navegacao a:hover{
+    color: #dd5abc;
+    background-color: #ce1773;
+}
+
+.conteudo{
+    float: left;
+    margin: 15px 2px 25px 2px;
+    background-color: rgb(250, 207, 243);
+    width: 30%;
+    padding: 63.9px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #290a1f98;
+}
+
+.principal h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color:#ce1773
+}
+
+@media screen and (max-width:800px){
+
+    .principal, .conteudo{
+        width: 100%;
+        padding: 0;
+    }
+    }
